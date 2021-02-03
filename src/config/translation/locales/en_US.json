@@ -1,0 +1,13 @@
+{
+  "appTitle": "React Native Boilerplate",
+  "loginSubtitle": "What is your mobile number to log in ?",
+  "inputNumber": "Mobile No.",
+  "inputPassword": "Password",
+  "login": "Login",
+  "min7": "Needs to be atleast 7 characters",
+  "min4": "Needs to be atleast 4 characters",
+  "max14": "Needs to be below 14 characters",
+  "max4": "Needs to be below 4 characters",
+  "required": "This needs to be filled!"
+
+}
