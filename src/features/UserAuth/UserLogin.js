@@ -6,6 +6,7 @@ import { Button } from '@app/components';
 import { useDispatch } from 'react-redux';
 import { loginReq } from './reducer';
 import { useTheme } from 'styled-components/native';
+import Icon from 'react-native-vector-icons/AntDesign';
 
 const initErrState = {
   phoneNum: null,
@@ -62,6 +63,7 @@ function UserLogin({ navigation }) {
         <Spacer height="5px" />
         <ErrorMessage width="100%">{error.phoneNum}</ErrorMessage>
         <Spacer height="5px" />
+        <Icon name="plus" size={10} />
         <Input
           value={password}
           onChangeText={val => setPassword(val)}
