@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container } from '@app/styles';
-import { UserLogin } from '@app/features';
+import { UserLogin, LanguageSwitch } from '@app/features';
 
 function LoginScreen(props) {
   return (
-    <Container height="100%">
+    <Container direction="column">
       <UserLogin {...props} />
+      <LanguageSwitch />
     </Container>
   );
 }

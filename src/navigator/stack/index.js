@@ -20,7 +20,7 @@ export default function AppStack() {
       {idToken ? (
         <>
           <Stack.Screen
-            options={{ title: t('halkhata') }}
+            options={{ title: t('appTitle') }}
             name="Home"
             component={HomeScreen}
           />

@@ -1,12 +1,14 @@
 {
-  "appTitle": "React Native Boilerplate",
-  "loginSubtitle": "What is your mobile number to log in ?",
-  "inputNumber": "Mobile No.",
-  "inputPassword": "Password",
-  "login": "Login",
-  "min7": "Needs to be atleast 7 characters",
-  "min4": "Needs to be atleast 4 characters",
-  "max14": "Needs to be below 14 characters",
-  "max4": "Needs to be below 4 characters",
-  "required": "This needs to be filled!"
+  "appTitle": "React Native বয়লারপ্লেট",
+  "loginSubtitle": "লগ ইন করতে আপনার মোবাইল নম্বরটি কী?",
+  "inputNumber": "মোবাইল নাম্বার.",
+  "inputPassword": "পাসওয়ার্ড",
+  "login": "প্রবেশ করুন",
+  "min7": "কমপক্ষে 7 টি অক্ষর হওয়া দরকার",
+  "min4": "কমপক্ষে 7 টি অক্ষর হওয়া দরকার",
+  "max14": "14 টি অক্ষরের নীচে হওয়া দরকার",
+  "max4": "4 টি অক্ষরের নীচে হওয়া দরকার",
+  "required": "এটি পূরণ করা প্রয়োজন!",
+  "homepageTitle": "হোম পৃষ্ঠা",
+  "logoutBtn": "লগআউট"
 }

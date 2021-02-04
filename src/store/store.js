@@ -7,7 +7,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['Auth'],
+  whitelist: ['Auth', 'Language'],
 };
 
 const middleware = [

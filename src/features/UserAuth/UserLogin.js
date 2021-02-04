@@ -48,7 +48,7 @@ function UserLogin({ navigation }) {
       <Spacer height="26px" />
       <H2 fs="26px">{t('appTitle')}</H2>
       <Spacer />
-      <H3 fs="26px">{t('login')}</H3>
+      <H3 fs="26px">{t('loginSubtitle')}</H3>
       <Spacer />
       <Container width="100%" direction="column">
         <Spacer width="5px" />
