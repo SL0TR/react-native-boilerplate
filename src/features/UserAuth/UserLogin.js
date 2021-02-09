@@ -39,7 +39,7 @@ function UserLogin({ navigation }) {
   return (
     <Container
       width="100%"
-      direction="column"
+      flexDirection="column"
       justify="center"
       align="center"
       py="36px"
@@ -51,7 +51,7 @@ function UserLogin({ navigation }) {
       <Spacer />
       <H3 fs="26px">{t('loginSubtitle')}</H3>
       <Spacer />
-      <Container width="100%" direction="column">
+      <Container width="100%" flexDirection="column">
         <Spacer width="5px" />
         <Input
           value={phoneNum}

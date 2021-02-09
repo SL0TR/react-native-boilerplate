@@ -12,7 +12,8 @@ export const Container = styled.View`
   margin-right: ${props => (props.mx ? props.mx : 0)};
   margin-top: ${props => (props.my ? props.my : 0)};
   margin-bottom: ${props => (props.my ? props.my : 0)};
-  flex-direction: ${props => (props.direction ? props.direction : 'row')};
+  flex-direction: ${props =>
+    props.flexDirection ? props.flexDirection : 'row'};
   background-color: ${props =>
     props.bg ? props.theme[props.bg] : 'transparent'};
   align-items: ${props => (props.align ? props.align : 'flex-start')};

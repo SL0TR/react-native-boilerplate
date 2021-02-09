@@ -4,7 +4,7 @@ import { UserLogin, LanguageSwitch } from '@app/features';
 
 function LoginScreen(props) {
   return (
-    <Container direction="column">
+    <Container flexDirection="column">
       <UserLogin {...props} />
       <LanguageSwitch />
     </Container>

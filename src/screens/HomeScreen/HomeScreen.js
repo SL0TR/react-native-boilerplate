@@ -14,7 +14,7 @@ function HomeScreen(props) {
   }
 
   return (
-    <Container {...props} direction="column" align="center">
+    <Container {...props} flexDirection="column" align="center">
       <H1 width="100%" align="center">
         {t('homepageTitle')}
       </H1>
